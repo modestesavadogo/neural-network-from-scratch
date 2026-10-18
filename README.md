@@ -1,14 +1,14 @@
-# 🧠 Neural Networks from Scratch
+#  Neural Networks from Scratch
 
 A complete, hands-on implementation of neural networks built with **NumPy only** — no PyTorch, no TensorFlow, no magic.
 
 Every forward pass, every gradient, every optimiser update is written explicitly so you can see exactly what's happening under the hood.
 
-> 📺 This repository was built as a hands-on companion while following the **[Neural Networks from Scratch](https://www.youtube.com/@Vizuara)** playlist by [**Vizuara**](https://www.youtube.com/@Vizuara) on YouTube. All core ideas and mathematical foundations come from that series — this repo is my personal structured implementation and extension of those concepts.
+>  This repository was built as a hands-on companion while following the **[Neural Networks from Scratch](https://www.youtube.com/@Vizuara)** playlist by [**Vizuara**](https://www.youtube.com/@Vizuara) on YouTube. All core ideas and mathematical foundations come from that series — this repo is my personal structured implementation and extension of those concepts.
 
 ---
 
-## 🎯 What this repo is
+##  What this repo is
 
 This is not just a copy of a tutorial. It's a structured **learning resource** that goes from a single neuron all the way to a real image classifier, organised as:
 
@@ -42,7 +42,7 @@ neural-network-from-scratch/
 
 ---
 
-## ⚡ Quick start
+## Quick start
 
 ```python
 from core import DenseLayer, ReLU, SoftmaxWithCrossEntropy, Adam
@@ -82,7 +82,7 @@ for epoch in range(5001):
 
 ---
 
-## 📚 Notebooks overview
+##  Notebooks overview
 
 ### `01_backprop_foundations.ipynb`
 The chain rule, explained through code. We hand-derive gradients for a single neuron, then extend to a full layer. Includes loss curves so you can see convergence happen in real time.
@@ -101,7 +101,7 @@ A real classification task: 70,000 clothing images, 10 classes. Uses Keras — b
 
 ---
 
-## 🏗️ Core library
+##  Core library
 
 ### `core/layers.py`
 
@@ -135,7 +135,7 @@ A real classification task: 70,000 clothing images, 10 classes. Uses Keras — b
 
 ---
 
-## 🧮 Concepts covered
+## Concepts covered
 
 - [x] Forward propagation
 - [x] Backpropagation (chain rule)
@@ -154,7 +154,7 @@ A real classification task: 70,000 clothing images, 10 classes. Uses Keras — b
 
 ---
 
-## 🛠️ Installation
+## Installation
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/neural-network-from-scratch
@@ -166,12 +166,12 @@ Then open any notebook with JupyterLab or VS Code.
 
 ---
 
-## 🙏 Credits & References
+## Credits & References
 
 This work stands on the shoulders of great educators. Full credit goes to:
 
 **Primary source — the series this repo follows**
-- 📺 [**Neural Networks from Scratch**](https://www.youtube.com/@Vizuara) — [Vizuara](https://www.youtube.com/@Vizuara) on YouTube
+-  [**Neural Networks from Scratch**](https://www.youtube.com/@Vizuara) — [Vizuara](https://www.youtube.com/@Vizuara) on YouTube
   All mathematical foundations, architectural choices, and training concepts in this repo originate from this playlist. If you find this repo useful, go watch the series — it is excellent.
 
 **Further reading**
@@ -181,6 +181,6 @@ This work stands on the shoulders of great educators. Full credit goes to:
 
 ---
 
-## 📝 License
+## License
 
 MIT — use freely, credit appreciated.
